@@ -1,0 +1,14 @@
+paris:
+  name: 'Le Wagon Paris'
+  address: '12 villa gaudelet'
+  last_seats: true
+london:
+  name: 'Le Wagon London'
+  address: '138 kingsland road'
+  last_seats: false
+berlin:
+  name: 'Le Wagon Berlin'
+  address: '138 checkpoint charlie'
+  last_seats: false
+
+

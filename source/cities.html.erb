@@ -1,0 +1,19 @@
+<div class="container text-center">
+  <h1>Here are our cities</h1>
+
+  <div class="row">
+    <% data.cities.each do |city, infos| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: url(https://kitt.lewagon.com/placeholder/cities/<%= city %>)">
+          <h2><%= infos.name %></h2>
+          <p><%= infos.address %></p>
+          <% if infos.last_seats %>
+            <p>Last seats</p>
+          <% end %>
+        </div>
+      </div>
+     <% end %>
+  </div>
+
+
+</div>
